@@ -1,0 +1,32 @@
+html{
+	background-image: url(Images/floralbackground.png);
+}
+body {
+ 
+ text-align: center;
+ 
+ }
+
+ul li {
+font-size: 20px;
+list-style-type: none;
+display:inline-block;
+font-family: 'Anton', sans-serif;
+}
+ul.nav {
+	padding:0px;
+}
+
+a{
+	text-decoration: none;
+	margin-left:30px;
+	margin-right:30px;
+}
+li a:hover {
+    background-color: #555;
+    color: lightblue;
+}
+
+.ourstory {
+	
+}
