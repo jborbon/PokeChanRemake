@@ -1,0 +1,70 @@
+body {
+  background-color: lightblue;
+}
+footer {
+  width: 100%;
+  height: 400px;
+  /*background-color: #183951;*/
+  background-image: url(gallery/PokeChanBackground.jpg);
+  margin-top: 100px;
+  left: 0;
+
+
+}
+#foot {
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #ffffff;
+  text-shadow: 1px 1px 10px black;
+}
+h4 {
+  color: #ffffff;
+  text-shadow: 1px 1px 10px black;
+}
+div.social {
+  float: left;
+  margin-top: 20px;
+}
+a.social {
+  margin-right: 15px;
+}
+
+div.contact {
+  float: right;
+  margin-left: 200px;
+  /*margin-top: 20px;*/
+  margin-bottom: 300px;
+  text-shadow: 1px 1px 10px black;
+}
+
+label {
+  color: #ffffff;
+}
+
+input.text {
+  height: 30px;
+  width: 250px;
+  border-radius: 3px;
+  border: none;
+}
+textarea.message {
+  height: 100px;
+  width: 250px;
+  border-radius: 3px;
+  border: none;
+}
+input.submit {
+  height: 60px;
+  width: 70px;
+  background-color: #ffffff;
+  color: #183951;
+  border: none;
+  border-radius: 3px;
+}
+input.submit: hover {
+  text-decoration: underline;
+}
