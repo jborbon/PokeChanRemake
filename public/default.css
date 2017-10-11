@@ -3,6 +3,7 @@
 
 /***Layout Page***/
 
+
 footer {
   width: 100%;
   height: 400px;
@@ -22,12 +23,13 @@ footer {
 }
 
 h3 {
-  color: #ffffff;
+  color: white;
   text-shadow: 1px 1px 10px black;
+  
 }
 
 h4 {
-  color: #ffffff;
+  color: white;
   text-shadow: 1px 1px 10px black;
 }
 
@@ -51,6 +53,8 @@ div.contact {
 label {
   color: #ffffff;
   text-shadow: 1px 1px 10px black;
+  font-size: 20px;
+  margin-top:60px;
 }
 
 input.text {
@@ -154,9 +158,12 @@ h5 {
 }*/
 
 /*Start of Joan's code*/
+/*//////////////// NAV.ERB///////////////////////////////////////*/
 html{
-  background-image: url(Images/floralbackground.png);
-  text-align: center;
+	background-image: url(Images/floralbackground.png);
+	text-align: center;
+	font-family: 'Sedgwick Ave', cursive;
+	font-family: 'Bubbler One', sans-serif;
 }
 
 
@@ -178,4 +185,60 @@ a{
 li a:hover {
     background-color: #555;
     color: lightblue;
+}
+/*//////////////// OURSTORY.ERB///////////////////////////////////////*/
+
+.storytable{
+	text-align: left;
+	padding: 60px;
+	margin:0 auto;
+	font-family: 'Sedgwick Ave', cursive;
+	font-family: 'Bubbler One', sans-serif;
+	font-size:23px;
+
+}
+.storytable th ,td{
+	padding-left:40px;
+	
+} 
+.storytable th{
+	padding-top: 10px;
+}
+
+.ourstory .p1{
+	font-size: 25px;
+	font-weight: 900;
+
+}
+
+hr{
+	margin-bottom:100px;
+}
+
+.p2 {
+	margin:0 auto;
+	width: 100%
+}
+
+/*///////////////contact.erb/////////////*/
+
+.picture {
+	background-image: url(images/contact1.jpeg);
+	height: 800px;
+	width:60%;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	}
+.picture img{
+	height: 1000px;
+	width: 100%;
+
+}
+.info {
+	background-image: url(PokeChanBackground.jpg);
+	height: 800px;
+	width:40%;
+	float: left;
+
 }
