@@ -1,16 +1,13 @@
 
-
-
 footer {
   width: 100%;
   height: 400px;
   /*background-color: #183951;*/
-  background-image: url(gallery/PokeChanBackground.jpg);
+  background-image: url(Images/PokeChanBackground.jpg);
   margin-top: 100px;
   left: 0;
-
-
 }
+
 #foot {
   width: 80%;
   height: 300px;
@@ -40,11 +37,11 @@ div.contact {
   margin-bottom: 300px;
   text-shadow: 1px 1px 10px black;
 }
-
+/*
 label {
   color: #ffffff;
-}
-
+}*/
+/*
 input.text {
   height: 30px;
   width: 250px;
@@ -67,9 +64,14 @@ input.submit {
 }
 input.submit: hover {
   text-decoration: underline;
-=======
+}*/
+
+
+
+/*Start of Joan's code*/
 html{
 	background-image: url(Images/floralbackground.png);
+	text-align: center;
 }
 
 
@@ -93,7 +95,3 @@ li a:hover {
     color: lightblue;
 }
 
-.ourstory {
-	
-
-}
