@@ -1,10 +1,6 @@
 
-
 /***Sherill's Code***/
-
 /***Layout Page***/
-
-
 footer {
   width: 100%;
   height: 400px;
@@ -12,9 +8,7 @@ footer {
   left: 0;
   position: relative;
   display: block;
-
 }
-
 #foot {
   width: 100%;
   height: 250px;
@@ -23,28 +17,23 @@ footer {
   background-image: url(Images/PokeChanBackground.jpg);
   float: left;
 }
-
 h3 {
   color: white;
   text-shadow: 1px 1px 10px black;
   
 }
-
 h4 {
   color: white;
   text-shadow: 1px 1px 10px black;
 }
-
 div.social {
   float: center;
   margin-top: 20px;
   padding-top: 10px;
 }
-
 a.social {
   margin-right: 15px;
 }
-
 div.contact {
   float: right;
   margin-left: 200px;
@@ -53,29 +42,24 @@ div.contact {
 
 }
 
-
-
 label {
   color: black;
   text-shadow: 1px 1px 10px black;
   font-size: 20px;
   margin-top:60px;
 }
-
 input.text {
   height: 30px;
   width: 250px;
   border-radius: 3px;
   border: none;
 }
-
 textarea.message {
   height: 100px;
   width: 250px;
   border-radius: 3px;
   border: none;
 }
-
 input.submit {
   height: 60px;
   width: 70px;
@@ -84,12 +68,165 @@ input.submit {
   border: none;
   border-radius: 3px;
 }
-
 input.submit: hover {
   text-decoration: underline;
 }
 
-/***Menu Page***/
+/*//////////////// MENU.ERB //////////////////////////////////////*/
+
+.food{
+    width: 500px;
+    height: 300px;
+}
+
+.poke{
+    position: left;
+    display: inline-block;
+    width:350px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.poke:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+  max-width
+}
+
+/*.container{
+    border: 1px solid #FAF3DD;
+    position: relative;
+}*/
+
+/*.container:before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: '';
+    background-color: #5E6472;
+    opacity: .7;
+    z-index: -2;
+}*/
+
+/*footer{
+     color: #FAF3DD;
+     opacity: .7;
+}*/
+
+.description{
+    width: 360px;
+    height: 320px;
+    border: 1px solid #white;
+    padding: 30px;
+    z-index: +2;
+  position: absolute;
+/*  left: 0px;
+  top: 0px;*/
+  display: none;
+  background-color: #603789;
+    opacity: .9;
+}
+
+.description p,
+.description h3 {
+  color: #FAF3DD;
+    opacity: .7;
+}
+.description h3 {
+    cursor: pointer;
+}
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: #056f00;
+  margin: 60px 0 60px 0;
+  /*border: 3px solid rgba(1, 0, 0, 1);
+  background-color: transparent;
+  width: 400px;
+  height: 75px;*/
+}
+/*p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}*/
+
+
+
+/*
+#first{
+  background-image: url("images/AllAboutTofu.jpg");
+}
+
+.second{
+  background-image: url("images/TasteTest.jpg");
+}
+
+.third{
+  background-image: url("images/SomethingAboutSalmon.jpg");
+}
+
+.fourth{
+  background-image: url("images/ShellLife.jpg");
+}
+
+.fifth{
+  background-image: url("images/KeepItClassic.jpg");
+}
+
+.sixth{
+  background-image: url("images/CaliforniaBowl.jpg");
+}*/
+/*
+.price {
+  float: right;
+  font-weight:bold;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+**Menu Page**
 .pokepics {
   position: relative;
   margin: 0;
@@ -139,39 +276,25 @@ h5 {
 }
 
 @media (min-width: 500px) {
-  b {
-    width: 50%;
+  b { width: 50%;
   }
 }
 
 @media (min-width: 800px) {
-  b {
-    width: 33.33333333%;
+  b { width: 33.33333333%;
   }
-}
-
-/*c {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  display: block;
-  float: left;
-  text-decoration: none;
-  overflow: hidden;
-  vertical-align: middle;
-  width: 100%;
 }*/
 
 /*Start of Joan's code*/
 /*//////////////// NAV.ERB///////////////////////////////////////*/
 html{
+
 	background-image: url(Images/background014.jpg);
 	text-align: center;
 	font-family: 'Sedgwick Ave', cursive;
 	font-family: 'Bubbler One', sans-serif;
+
 }
-
-
 ul li {
 font-size: 20px;
 list-style-type: none;
@@ -181,7 +304,6 @@ font-family: 'Anton', sans-serif;
 ul.nav {
   padding:0px;
 }
-
 a{
   text-decoration: none;
   margin-left:30px;
@@ -193,42 +315,35 @@ li a:hover {
     border-radius: 5px
 }
 /*//////////////// OURSTORY.ERB///////////////////////////////////////*/
-
 .storytable{
-	text-align: left;
-	padding: 60px;
-	margin:0 auto;
-	font-family: 'Sedgwick Ave', cursive;
-	font-family: 'Bubbler One', sans-serif;
-	font-size:23px;
-
+    text-align: left;
+    padding: 60px;
+    margin:0 auto;
+    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Bubbler One', sans-serif;
+    font-size:23px;
 }
 .storytable th ,td{
-	padding-left:40px;
-	
+    padding-left:40px;
+    
 } 
 .storytable th{
-	padding-top: 10px;
+    padding-top: 10px;
 }
-
 .ourstory .p1{
-	font-size: 25px;
-	font-weight: 900;
-
+    font-size: 25px;
+    font-weight: 900;
 }
-
 hr{
-	margin-bottom:100px;
+    margin-bottom:100px;
 }
-
 .p2 {
-	margin:0 auto;
-	width: 100%
+    margin:0 auto;
+    width: 100%
 }
-
 /*///////////////contact.erb/////////////*/
-
 .picture {
+
 	background-image: url(images/salmon-poke-bowl.jpg);
 	height: 800px;
 	width:100%;
@@ -238,12 +353,21 @@ hr{
   margin-bottom: 20px;
   
 	}
-.picture img{
-	height: 1000px;
-	width: 100%;
 
+/*     background-image: url(images/contact1.jpeg);
+    height: 800px;
+    width:60%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    } */
+
+.picture img{
+    height: 1000px;
+    width: 100%;
 }
 .info {
+
 	background-color: #faf3dd;
 	height: 400px;
 	width:45%;
@@ -290,3 +414,10 @@ hr{
   margin-left: 50px;
 
 }
+
+/*     background-image: url(PokeChanBackground.jpg);
+    height: 800px;
+    width:40%;
+    float: left;
+} */
+
