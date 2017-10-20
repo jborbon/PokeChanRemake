@@ -1,4 +1,5 @@
 
+
 /***Sherill's Code***/
 
 /***Layout Page***/
@@ -20,6 +21,7 @@ footer {
   margin: 0 auto;
   display: block;
   background-image: url(Images/PokeChanBackground.jpg);
+  float: left;
 }
 
 h3 {
@@ -48,10 +50,13 @@ div.contact {
   margin-left: 200px;
   margin-bottom: 300px;
   text-shadow: 1px 1px 10px black;
+
 }
 
+
+
 label {
-  color: #ffffff;
+  color: black;
   text-shadow: 1px 1px 10px black;
   font-size: 20px;
   margin-top:60px;
@@ -160,7 +165,7 @@ h5 {
 /*Start of Joan's code*/
 /*//////////////// NAV.ERB///////////////////////////////////////*/
 html{
-	background-image: url(Images/floralbackground.png);
+	background-image: url(Images/background014.jpg);
 	text-align: center;
 	font-family: 'Sedgwick Ave', cursive;
 	font-family: 'Bubbler One', sans-serif;
@@ -184,7 +189,8 @@ a{
 }
 li a:hover {
     background-color: #555;
-    color: lightblue;
+    color: lightgray;
+    border-radius: 5px
 }
 /*//////////////// OURSTORY.ERB///////////////////////////////////////*/
 
@@ -223,12 +229,14 @@ hr{
 /*///////////////contact.erb/////////////*/
 
 .picture {
-	background-image: url(images/contact1.jpeg);
+	background-image: url(images/salmon-poke-bowl.jpg);
 	height: 800px;
-	width:60%;
+	width:100%;
 	background-size: cover;
 	background-position: center;
 	float: left;
+  margin-bottom: 20px;
+  
 	}
 .picture img{
 	height: 1000px;
@@ -236,9 +244,49 @@ hr{
 
 }
 .info {
-	background-image: url(PokeChanBackground.jpg);
-	height: 800px;
-	width:40%;
-	float: left;
+	background-color: #faf3dd;
+	height: 400px;
+	width:45%;
+  border-radius: 10px;
+  margin:0 auto;
+  margin-top:150px;
+  padding-top: 25px;
+
+}
+
+.h3{
+  color:black;
+  font-size:30px;
+}
+
+/*Locations///////////////////////*/
+
+.locations{
+  width: 100%;
+  height: 400px;
+ 
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+.midtown{
+
+  background-image: url(images/midtownpokechan.png);
+  border-style: solid;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  float: left;
+  margin-left: 500px;
+
+}
+.downtown{
+  background-image: url(images/downtownpokechan.png);
+  border-style: solid;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  float: left;
+  margin-left: 50px;
 
 }
